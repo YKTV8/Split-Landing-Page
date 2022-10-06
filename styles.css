@@ -22,7 +22,7 @@ body {
     height: 100vh;
     overflow: hidden;
 }
-h1  {
+h1 {
     font-size: 4rem;
     color: white;
     position: absolute;
@@ -30,6 +30,15 @@ h1  {
     top:20%;
     transform: translateX(-50%);
     white-space: nowrap;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    background-color: black;
 }
 .btn {
     position: absolute;
